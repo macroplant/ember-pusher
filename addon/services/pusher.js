@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import { keys } from 'ember-pusher/compat';
-import Pusher from "npm:pusher-js";
+import Pusher from "pusher-js";
 
 // Need to track
 // 1) channel object
