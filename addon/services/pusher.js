@@ -49,6 +49,7 @@ export default Ember.Service.extend({
   isConnected: Ember.computed.not('isDisconnected'),
 
   init() {
+    this._super(...arguments)
     this.pusher = null;
     this.set('bindings', {});
     this.logEvents = false;
